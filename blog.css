@@ -1,0 +1,58 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+.container{
+	height:500px;
+}
+
+.white-box
+{
+color:red;
+}
+
+#first{
+background: yellow;
+height: 500px;
+}
+
+#second{
+background-image:url("blog1.jpg");
+height: 500px;
+}
+
+#third{
+background: yellow;
+height: 500px;
+}
+
+
+.nav nav-pills{
+  font-size: 10px;
+  height: 10px;
+}
+
+
+
+#header{
+background-color:#4267b2;
+color:white;
+}
+
+.pull-right{
+
+float:right!important;
+
+  }
+  .col-md-2{
+  	padding-left: 0px;
+  }
+  .col-md-7{
+  	padding: 0px;
+		background: url("blog1.jpg");
+  }
+  .col-md-3{
+  padding-right: 0px;
+  }

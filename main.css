@@ -1,0 +1,239 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+.container{
+	height:auto;
+	width:auto;
+}
+
+#header{
+background-color:#4267b2;
+color:white;
+
+}
+.icons{
+	font-size: 20px;
+}
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    height: 500px;
+
+	}
+
+	.list-group-item.active .list-group-item-text, .list-group-item.active:focus .list-group-item-text, .list-group-item.active:hover .list-group-item-text {
+    color: black; /* list content color*/
+}
+
+.navba.container-fluid.navbar-brand{
+margin-left: -15px;
+color:white;
+
+}
+.search{
+	background:#4267b2;
+	border:0;
+}
+
+.white-box{
+color:white !important;
+	}
+
+.glyphicon{
+font-size: 20px;
+color:white !important;
+	}
+
+.abc{
+padding-top: 9px;
+
+}
+.pull-right{
+
+float:right!important;
+	}
+
+.nav nav-pills nav-stacked{
+color:black;
+}
+
+.list-heading{
+	padding:20px 15px 0px 15px;
+}
+
+.nav nav-pills{
+	height:10px;
+	font-size: 10px;
+	border:1px solid black;
+}
+#first{
+	background:#e9ebee;
+	height:600px;
+	overflow:auto;
+color:black;
+}
+
+#main{
+	background: #e9ebee;
+	height:600px;
+	overflow:auto;
+}
+
+#main::-webkit-scrollbar {
+  display: none;
+}
+
+#sidebar{
+	background: #e9ebee;
+	height:600px;
+overflow:auto;
+}
+.col-md-3{
+	padding-right: 0px;
+	padding-left: 0px;
+
+}
+
+.col-md-6{
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+
+.col-md-3{
+
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+
+.panel-body .linecomment {
+	margin-left: 10px;
+	margin-right: 4px;
+}
+
+.text-post {
+	margin-bottom:0px;
+	margin-top: 0px;
+}
+
+.image-post {
+	margin-bottom: 15px;
+}
+
+.whats-on-your-mind{
+	border: 1px solid transparent;
+	margin-top: -14px;
+	margin-bottom: -16px;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	font-size: 18px;
+}
+.heading{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.pensil{
+	margin-right: 5px;
+}
+
+.camera {
+	margin-left: 20px;
+	margin-right: 22px;
+}
+
+live-video{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.smile{
+	border:1px solid #E9E9E9;
+	background-color:#E9E9E9;
+	border-radius: 19%;
+	padding: 5px;
+  margin-left: 21px;
+}
+
+.picture{
+	margin:2px;
+	border:1px solid #E9E9E9;
+	background-color:#E9E9E9;
+  border-radius: 19%;
+	padding: 5px;
+}
+/* Add Custom CSS Below this line */
+.comment{
+	margin: 0px;
+}
+
+.placeholder{
+	width: 100%;
+	margin-top: 10px;
+  padding: 3px;
+}
+
+
+.nav-pills>li>a:hover{
+font-weight: bold;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: blue;
+    border-color: white;
+    background-color:#B7E9EB;
+}
+
+#britons{
+	margin-top: -12px;
+}
+
+#uber{
+	margin-top: -12px;
+}
+
+#microsoft{
+	margin-top: -12px;
+}
+#ramnath{
+
+}
+
+	#hindu{
+	margin-top: -12px;
+	}
+
+	#prakash{
+		margin-top: -12px;
+	}
+#cristiano{
+	margin-top: -12px;
+	color:black;
+}
+#jose{
+	margin-top: -12px;
+	color:black;
+}
+#fifa{
+	margin-top: -12px;
+	color:black;
+}
+#hampstead{
+	margin-top: -12px;
+}
+#akshay{
+	margin-top: -12px;
+}
+#spice{
+		margin-top: -12px;
+}
+#minimeals{
+		margin-top: -12px;
+}
