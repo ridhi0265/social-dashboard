@@ -26,6 +26,7 @@ color:white;
 
 	}
 
+
 	.list-group-item.active .list-group-item-text, .list-group-item.active:focus .list-group-item-text, .list-group-item.active:hover .list-group-item-text {
     color: black; /* list content color*/
 }
@@ -90,9 +91,26 @@ color:black;
 
 #sidebar{
 	background: #e9ebee;
-	height:600px;
+	height:250px;
 overflow:auto;
+font-size: 12px;
 }
+
+#suggested{
+
+		background: #e9ebee;
+		height:300px;
+	overflow:auto;
+	    margin-top: 12px;
+}
+
+#birthday{
+	background: #e9ebee;
+	height:50px;
+	overflow:auto;
+  margin-bottom: 7px;
+}
+
 .col-md-3{
 	padding-right: 0px;
 	padding-left: 0px;
@@ -236,4 +254,38 @@ font-weight: bold;
 }
 #minimeals{
 		margin-top: -12px;
+}
+
+.art{
+	margin: 0px;
+	margin-left: 9px;
+	font-family: cursive;
+	font-weight: lighter;
+
+}
+.fan{
+    margin-left: 8px;
+		font-family: cursive;
+		font-weight: lighter;
+}
+
+.submit{
+	border: 0px;
+	font-weight: bold;
+}
+
+.upcoming{
+font-weight: bold;
+font-family: sans-serif;
+}
+.bdge{
+position: absolute;
+margin-top: -48px;
+margin-left: 28px;
+background-color: red;
+}
+
+.gly{
+position: relative;
+
 }
