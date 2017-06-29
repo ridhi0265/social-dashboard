@@ -3,22 +3,35 @@
 *:before {
 	box-sizing: border-box;
 }
-body
-{ padding-top: 70px;
 
- }
-.a{
-	color: grey;
+body{
+	padding-bottom: 0px;
+	padding-left: 66px;
+	padding-top: 66px;
+	padding-right: 64px;
 }
-.container{
-	height:auto;
-	width:auto;
+
+	.container {
+    height: auto;
+  width:100%
+}
+
+.a{
+color: grey;
+
+}
+
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 #header{
 background-color:#4267b2;
 color:white;
-
 }
 .icons{
 	font-size: 20px;
@@ -26,10 +39,9 @@ color:white;
 
 
 .row {
-    margin-right: -15px;
-    margin-left: -15px;
+	margin-right: -25px;
+margin-left: -88px;
     height: 500px;
-
 	}
 
 
@@ -83,12 +95,19 @@ color:black;
 	height:600px;
 	overflow:auto;
 color:black;
+padding-right: 0px;
+width: 22%;
 }
 
 #main{
 	background: #e9ebee;
-	height:600px;
-	overflow:auto;
+height: 600px;
+overflow: auto;
+margin-right: -13px;
+margin-left: 9px;
+padding-right: 0px;
+padding-left: 0px;
+width: 47%;
 }
 
 #main::-webkit-scrollbar {
@@ -100,6 +119,11 @@ color:black;
 	height:250px;
 overflow:auto;
 font-size: 12px;
+}
+#sgtd{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 82px;
 }
 
 #suggested{
@@ -117,23 +141,25 @@ font-size: 12px;
   margin-bottom: 7px;
 }
 
-.col-md-3{
+/*.hidden-xs .col-sm-4 .col-md-3{
 	padding-right: 0px;
 	padding-left: 0px;
-
+	margin-right: 71px;
+	margin-left: -92px;
 }
 
 .col-md-6{
-	margin-left: 0px;
+	     margin-left: -45px;
 	margin-right: 0px;
-
+	padding-left: 0px;
+	    padding-right: 0px;
 }
+
 
 .col-md-3{
-
 	margin-left: 0px;
 	margin-top: 0px;
-}
+}*/
 
 
 .panel-body .linecomment {

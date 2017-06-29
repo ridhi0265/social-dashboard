@@ -1,0 +1,66 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1 {
+    border: 0;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background: url("petals.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.footer {
+    height: 120px;
+    color: white;
+      padding:30px;
+}
+
+.controls {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+      background-color: #282828;
+}
+
+.hidden {
+    display: none;
+}
+
+.right.floated {
+    float: right;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.play-icon {
+     color: teal;
+}
+
+
+.
