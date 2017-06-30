@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>dblclick demo</title>
+  <style>
+  div {
+<img src="jai.jpg">
+ }
+  div.dbl {
+<img src="guri.jpg">
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+<div></div>
+<span>Double click the block</span>
+
+<script>
+var divdbl = $( "div:first" );
+divdbl.dblclick(function() {
+  divdbl.toggleClass( "dbl" );
+});
+</script>
+
+</body>
+</html>

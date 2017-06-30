@@ -7,7 +7,7 @@
 
 .container{
 	height:auto;
-	width:auto;
+	width:100%;
   padding-left: 0px;
   padding-right: 0px;
   margin-left: 0px;
@@ -27,7 +27,6 @@ border:1px solid black;
 }
 .row{
 
-	margin-top: 11px;
 }
 #header{
 	font-family: "Proxima Nova Regular",Helvetica,Arial,sans-serif;
@@ -85,33 +84,9 @@ color:black;
 
 
 }
-#first{
-	  padding: 20px 0;
-
-    justify-content: center;
-    position: relative;
-    width: 33.33%;
-	}
-
-#second{
-	padding: 20px 0;
-	justify-content: center;
-	position: relative;
-	width: 62%;
-margin-left: 73px;
-margin-top: 1px;
-}
-
-#third{
-	padding: 20px 0;
- margin-left: 2px;
-	justify-content: center;
-	position: relative;
-	width: 33.33%;
-}
 
 @media(max-width: 500px){
 .picture{
-        width:100%;
+        width:50%;
 }
  }
